@@ -1,10 +1,10 @@
 s = input("enter string")
-#first 5
+# first 5
 print(s[:5:])
-#ninth char 
+# ninth char
 print("Ninth character of string is ", s[8])
-#reversed
+# reversed
 print(s[::-1])
-#alt reversed
-for i in range(len(s)-1,-1,-1):
+# alt reversed
+for i in range(len(s) - 1, -1, -1):
     print(s[i])
